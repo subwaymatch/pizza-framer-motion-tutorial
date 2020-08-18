@@ -14,7 +14,7 @@ const containerVariants = {
       mass: 0.4,
       damping: 8,
       when: 'beforeChildren',
-      staggerChildren: 0.4,
+      staggerChildren: 0.2,
     },
   },
 };
@@ -26,7 +26,8 @@ const childVariants = {
   visible: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.15,
+      duration: 0.5,
+      staggerChildren: 0.06,
     },
   },
 };
